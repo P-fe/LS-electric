@@ -2474,5 +2474,5 @@ def server(input, output, session):
         report_path = generate_report(context)
         return open(report_path, "rb")
 
-# 앱 실행
+# 앱 실
 app = App(app_ui, server)
